@@ -1,0 +1,82 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "globals": {
+    "describe": false,
+    "it": false,
+    "before": false,
+    "beforeEach": false,
+    "beforeAll": false,
+    "after": false,
+    "afterEach": false,
+    "afterAll": false,
+    "document": false,
+    "Promise": false
+  },
+  "rules": {
+    "no-bitwise": 2,
+    "curly": 2,
+    "eqeqeq": 2,
+    "wrap-iife": [
+      2,
+      "any"
+    ],
+    "no-use-before-define": 0,
+    "new-cap": 0,
+    "no-caller": 2,
+    "quotes": [
+      2,
+      "single"
+    ],
+    "no-undef": 2,
+    "no-unused-vars": 2,
+    "strict": [
+      2,
+      "global"
+    ],
+    "no-multi-str": 2,
+    "no-trailing-spaces": 2,
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 2,
+        "maxEOF": 1
+      }
+    ],
+    "comma-dangle": 0,
+    "no-console": 2,
+    "no-mixed-spaces-and-tabs": 2,
+    "semi": 2,
+    "react/prop-types": [
+      0,
+      {
+        "ignore": true
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "0.14.8"
+    }
+  }
+}

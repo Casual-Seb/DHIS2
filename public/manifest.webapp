@@ -1,0 +1,23 @@
+{
+    "version": "0.1",
+    "name": "DoctorsDiaryGruppe6",
+    "short_name": "DHIS2",
+    "description": "DHIS2 App",
+    "launch_path": "index.html",
+    "start_url": "index.html",
+    "appType": "APP",
+    "icons": {
+        "48": "./favicon.ico"
+    },
+    "developer": {
+        "name": "Team",
+        "company": "UiO"
+    },
+    "default_locale": "en",
+    "activities": {
+        "dhis": {
+            "href": "http://apps.dhis2.org/demo",
+            "namespace": "dataStore"
+        }
+    }
+}

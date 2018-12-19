@@ -1,0 +1,28 @@
+@import '../App.scss';
+
+.header {
+    background-color: $primary-color;
+}
+
+// .navbar-brand,
+// .nav-link {
+//     color: $white;
+//     font-weight: 500;
+// }
+//
+// .navbar-brand:link,
+// .nav-link:link {
+//     text-decoration: none;
+// }
+//
+// .navbar-brand:hover,
+// .nav-link:hover {
+//     color: darken($white, 20%);
+// }
+
+.nav-text {
+    color: $nav-color;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 600;
+}

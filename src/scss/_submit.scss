@@ -1,0 +1,47 @@
+@import '../App.scss';
+
+.card-header {
+    background-color: $card-body !important;
+}
+
+.card {
+    margin: 1em 0;
+}
+
+.datepicker-submit {
+    border: none;
+    border-radius: 0.25rem;
+    background-color: $primary-color;
+    padding: 0.5em;
+    cursor: pointer;
+    color: $white;
+    max-width: 6.5rem;
+    text-align: center;
+}
+
+.datepicker-submit:hover {
+    background-color: darken($primary-color, 10%);
+}
+
+.breadcrumbs {
+    list-style: none;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    font-size: 0.8rem;
+    color: $primary-color;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+
+.breadcrumbs li:link {
+    text-decoration: none;
+}
+
+.breadcrumbs li p {
+    font-weight: bold;
+}

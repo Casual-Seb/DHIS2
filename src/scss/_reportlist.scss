@@ -1,0 +1,58 @@
+@import '../App.scss';
+
+.ReactTable .rt-thead.-filters input:focus {
+    outline-width: 2px;
+    outline-color: #fd9727;
+    outline-style: solid;
+}
+
+.ReactTable .rt-thead.-filters select:focus {
+    outline-width: 2px;
+    outline-color: #fd9727;
+    outline-style: solid;
+}
+
+.ReactTable {
+    margin: 1em 0;
+}
+
+.ReactTable .rt-table {
+    overflow-y: hidden !important;
+}
+
+.ReactTable .rt-tbody {
+    overflow-x: hidden !important;
+}
+
+.rt-tr {
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    text-align: left !important;
+    padding: 0 1.25em;
+}
+.rt-thead {
+    background-color: $card-body;
+    color: #6f767e;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 0.5em;
+}
+.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover {
+    background: #d3f4f4 !important;
+}
+.rt-th.number,
+.rt-td.number {
+    text-align: right;
+}
+.rt-th.name,
+.rt-td.name {
+    min-width: 15.625em;
+}
+.rt-td.input {
+    text-align: center;
+}
+.rt-td.input button {
+    margin: 0;
+}

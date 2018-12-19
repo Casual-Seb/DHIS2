@@ -1,0 +1,36 @@
+@import '../App.scss';
+
+.box1, .box2 {
+  border: 2px solid;
+  border-radius: 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.box1 {
+  background-color: #ffffff;
+  border-color: #00ca00;
+}
+
+.box2 {
+  background-color: #FED4D1;
+  border-color: #FF584C;
+}
+
+.message {
+  padding-top: 10px;
+  clear: none;
+  font: Arial bold;
+  font-size: 16px;
+}
+
+.icon {
+  float: left;
+  height: 16px;
+}
+
+.icon2 {
+  float: right;
+  height: 16px;
+  clear: none;
+}
